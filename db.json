@@ -3,7 +3,7 @@
     { "matchedText": "test", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
     { "matchedText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
     { "matchedText": "test1", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
-    { "matchedText": "test2", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
+    { "matchedText": "test2", "matchedActionName": "Create an issue", "matchedAction": "createIssue" }
   ],
   "2": [
     { "matchedText": "test", "matchedActionName": "create issue", "matchedAction": "createIssue" },
