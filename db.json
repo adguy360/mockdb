@@ -6,7 +6,7 @@
     { "matchedText": "test2", "matchedActionName": "Create an issue", "matchedAction": "createIssue" }
   ],
   "2": [
-    { "matchedText": "test", "matchedActionName": "create issue", "matchedAction": "createIssue" },
+    { "matchedText": "test", "matchedActionName": "create issue", "matchedAction": "createIssue" }
   ],
   "3": []
 }
