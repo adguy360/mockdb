@@ -1,14 +1,12 @@
 {
   "1": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "matchedText": "test", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
+    { "matchedText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
+    { "matchedText": "test1", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
+    { "matchedText": "test2", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
   ],
   "2": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "matchedText": "test", "matchedActionName": "create issue", "matchedAction": "createIssue" },
   ],
-  "3": {
-    "name": "typicode"
-  }
+  "3": []
 }
