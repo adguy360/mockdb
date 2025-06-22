@@ -1,19 +1,12 @@
 {
   "1": [
     {
-      "text": "if we don't already have it, let's create an issue for the broken wall asap. please update our dates here if affected.",
-      "offsetStart": 35,
-      "offsetEnd": 70,
+      "text": "create an issue for the broken wall asap. please update our dates here if affected.",
+      "offsetStart": 0,
+      "offsetEnd": 35,
       "possibleActions": [
         {
           "action": "create_issue",
-          "payload": {
-            "title": "Broken Wall",
-            "dueDate": "2025-06-23T14:28:36.850Z"
-          }
-        },
-        {
-          "action": "search_issue",
           "payload": {
             "title": "Broken Wall",
             "dueDate": "2025-06-23T14:28:36.850Z"
