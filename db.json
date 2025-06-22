@@ -1,12 +1,79 @@
 {
   "1": [
-    { "matchedText": "test", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
-    { "matchedText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
-    { "matchedText": "test1", "matchedActionName": "Create an issue", "matchedAction": "createIssue" },
-    { "matchedText": "test2", "matchedActionName": "Create an issue", "matchedAction": "createIssue" }
+    {
+      "text": "if we don't already have it, let's create an issue for the broken wall asap. please update our dates here if affected.",
+      "offsetStart": 35,
+      "offsetEnd": 70,
+      "possibleActions": [
+        {
+          "action": "create_issue",
+          "payload": {
+            "title": "Broken Wall",
+            "dueDate": "2025-06-23T14:28:36.850Z"
+          }
+        },
+        {
+          "action": "search_issue",
+          "payload": {
+            "title": "Broken Wall",
+            "dueDate": "2025-06-23T14:28:36.850Z"
+          }
+        },
+        {
+          "action": "update_correspondence",
+          "payload": {
+            "dueDate": "2025-06-23T14:28:36.850Z"
+          }
+        }
+      ]
+    },
+    {
+      "text": "IIRC I saw it in a file called A105, it should also be mentioned in one of our safety forms",
+      "offsetStart": 19,
+      "offsetEnd": 35,
+      "possibleActions": [
+        {
+          "action": "search_file",
+          "payload": {
+            "title": "A105"
+          }
+        },
+        {
+          "action": "search_form",
+          "payload": {
+            "title": "A105"
+          }
+        }
+      ]
+    },
+    {
+      "text": "any updates?",
+      "offsetStart": 0,
+      "offsetEnd": 12,
+      "possibleActions": [
+        {
+          "action": "update_correspondence",
+          "payload": {
+            "dueDate": "2025-06-23T14:28:36.850Z"
+          }
+        }
+      ]
+    }
   ],
   "2": [
-    { "matchedText": "test", "matchedActionName": "create issue", "matchedAction": "createIssue" }
+    {
+      "text": "any updates?",
+      "offsetStart": 0,
+      "offsetEnd": 12,
+      "possibleActions": [
+        {
+          "action": "update_correspondence",
+          "payload": {
+            "dueDate": "2025-06-23T14:28:36.850Z"
+          }
+        }
+      ]
+    }
   ],
   "3": []
 }
